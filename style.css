@@ -30,7 +30,6 @@ body {
 .flex-parent2 {
     display: flex;
     justify-content: space-around
-
 }
 .jc-center {
     justify-content: center;
@@ -60,12 +59,16 @@ p{
     line-height: 24px;
 }
 .main_title {
+    position: relative;
     font-style: bold;
     font-size: 82px;
-    margin-top: 70%;
-    margin-bottom: 0px;
+    margin: 60%;
+    -webkit-text-fill-color:  #FEFEFE; ;
+    -webkit-text-stroke-color:#0048FF;;
+    -webkit-text-stroke-width: 0.25px; 
 }
 .main_button {
+    position: relative;
     font-size: 16px;
     font-style: normal;
     padding-bottom: 8px;
@@ -192,7 +195,7 @@ img:hover{
 }
 .grid2 {
     display: grid;
-    grid-template-rows: repeat(3);
+    grid-template-rows: repeat(1);
 }
 .extitle {
     width: 50%;
@@ -544,11 +547,11 @@ img:hover{
         }
         .exarrow {
             position: relative;
-            margin-top: 7%;
+            margin-top: 3%;
         }
         .date {
             font-size: 26px;
-            margin-top: 104px;
+            margin-top: 4px;
             position: relative;
         }
         .name {

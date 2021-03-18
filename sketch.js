@@ -11,7 +11,7 @@ function setup () {
   imageMode(CENTER)
   canvas.position(0, 0);
   canvas.style('z-index', '-999');
-  frameRate(10);
+  frameRate(120);
 }
 function draw () {
   noStroke();
